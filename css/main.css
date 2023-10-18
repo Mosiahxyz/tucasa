@@ -4,17 +4,26 @@
 
 }
 
+
 .bg-color-header{
 
-    border-bottom: solid 0.1rem;
+    border-bottom: solid 0.2rem;
     background-color: white;
-}
 
-.navbar-brand{
-
-    width: 60px;
+    height: 7rem;
 
 }
+
+#navbar-items .navbar-nav {
+
+    display: flex;   
+    justify-content: center; 
+    gap: 3.5rem;
+    width: 100%;
+
+}
+
+.navbar-brand{  width: 60px;}
 
 .carousel-control-next, .carousel-control-prev{
 
@@ -22,15 +31,30 @@
 
 }
 
-.iconcard{
+.iconcard{ font-size: 50px; }
 
-    font-size: 50px;
+p{ text-align: justify; }
+
+.cardz{
+
+    position: relative;
+    z-index: 10;
+    margin-top: -100px;
 
 }
 
-p{
+.carousel-caption, .carousel-indicators{
 
-    text-align: justify;
+    margin-bottom: 110px;
 
 }
+
+.btn-slide{
+
+    color: black;
+
+}
+
+
+
 
